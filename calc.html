@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="calc.css">
+    
     <title>
         Web Calculator | Meherzan Gai
     </title>
@@ -13,170 +14,168 @@
     <div id="calc-body">
         <div id="answer-box">
             <p id="answer-text">
-                HELLO
-            </p>
-        </div>
-
-
-        <div class="input-button" id="clear-btn">
-            <p class="input-text">
-                CLEAR
-            </p>
-
-        </div>
-        
-        <div class="input-button" id="delete-btn">
-            <p class="input-text">
-                DELETE
-            </p>
-        </div>
-
-        <div class="input-button" id="open-bracket-btn">
-            <p class="input-text">
-                par
-            </p>
-        </div>
-
-        <div class="input-button" id="close-bracket-btn">
-            <p class="input-text"> 
-                closepar
-            </p>
-        </div>
-        
-
-
-
-
-
-
-
-
-
-        <div class="input-button" id="seven-btn">
-            <p class="input-text">
-                7
-            </p>
-
-        </div>
-        
-        <div class="input-button" id="eight-btn">
-            <p class="input-text">
-                8
-            </p>
-        </div>
-
-        <div class="input-button" id="nine-btn">
-            <p class="input-text">
-                9
-            </p>
-        </div>
-
-        <div class="input-button" id="plus-btn">
-            <p class="input-text"> 
-                +
-            </p>
-        </div>
-
-
-
-
-
-
-
-
-        <div class="input-button" id="four-btn">
-            <p class="input-text">
-                4
-            </p>
-
-        </div>
-        
-        <div class="input-button" id="five-btn">
-            <p class="input-text">
-                5
-            </p>
-        </div>
-
-        <div class="input-button" id="six-btn">
-            <p class="input-text">
-                6
-            </p>
-        </div>
-
-        <div class="input-button" id="minus-btn">
-            <p class="input-text"> 
-                -
-            </p>
-        </div>
-
-
-
-
-
-
-
-        
-
-        <div class="input-button" id="one-btn">
-            <p class="input-text">
-                1
-            </p>
-
-        </div>
-        
-        <div class="input-button" id="two-btn">
-            <p class="input-text">
-                2
-            </p>
-        </div>
-
-        <div class="input-button" id="three-btn">
-            <p class="input-text">
-                3
-            </p>
-        </div>
-
-        <div class="input-button" id="multiply-btn">
-            <p class="input-text"> 
-                *
-            </p>
-        </div>
-
-
-
-
-
-
-
-
-
-
-        <div class="input-button" id="zero-btn">
-            <p class="input-text">
                 0
             </p>
-
         </div>
+
+
+        <button id="clear-btn">
+            CLEAR
+        </button>
         
-        <div class="input-button" id="decimal-btn">
-            <p class="input-text">
+        <button id="delete-btn">
+            DELETE
+        </button>
+
+        <button class="input-button" id="open-bracket-btn" data-val="(">
+            (
+        </button>
+
+        <button class="input-button" id="closed-bracket-btn" data-val=")">
+            )
+        </button>
+
+        <button class="input-button" id="plus-btn" data-val="+">
+            +
+        </button>
+
+
+        <button class="input-button" id="minus-btn" data-val="-">
+            -
+        </button>
+
+        <button class="input-button" id="decimal-btn" data-val=".">
+            
                 .
-            </p>
-        </div>
+            
+        </button>
 
-        <div class="input-button" id="equal-btn">
-            <p class="input-text">
+        <button id="equal-btn">
+            
                 =
-            </p>
-        </div>
+            
+        </button>
 
-        <div class="input-button" id="divide-btn">
-            <p class="input-text"> 
+        <button class="input-button" id="divide-btn" data-val="/">
+             
                 /
-            </p>
-        </div>
+            
+        </button>
+
+        <button class="input-button" id="multiply-btn" data-val="*">
+             
+                *
+            
+        </button>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+        
+
+        
+
+       
+
+
+
+
+
+
+
+        <button class="input-button numeric" id="zero-btn" data-val="0">
+            
+                0
+            
+        </button>
+
+
+
+        <button class="input-button numeric" id="one-btn" data-val="1">
+            
+                1
+            
+
+        </button>
+        
+        <button class="input-button numeric" id="two-btn" data-val="2">
+            
+                2
+            
+        </button>
+
+        <button class="input-button" id="three-btn" data-val="3">
+            
+                3
+            
+        </button>
+
+
+
+        <button class="input-button" id="four-btn" data-val="4">
+            
+                4
+            
+
+        </button>
+        
+        <button class="input-button" id="five-btn" data-val="5">
+            
+                5
+            
+        </button>
+
+        <button class="input-button" id="six-btn" data-val="6">
+            
+                6
+            
+        </button>
+
+        <button class="input-button" id="seven-btn" data-val="7">
+            
+                7
+            
+
+        </button>
+        
+        <button class="input-button" id="eight-btn" data-val="8">
+            
+                8
+            
+        </button>
+
+        <button class="input-button" id="nine-btn" data-val="9">
+            
+                9
+            
+        </button>
+
+        
+        
+       
 
 
 
     </div>
+
+
+    <script src="calc.js"></script>
 </body>
