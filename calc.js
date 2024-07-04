@@ -1,3 +1,5 @@
+//need to fix issue with computer calculations having decimals at end
+
 
 const clearBtn = document.getElementById('clear-btn');
 const deleteBtn = document.getElementById('delete-btn');
@@ -23,7 +25,8 @@ deleteBtn.addEventListener('click', (e)=>{
 } )
 
 equalBtn.addEventListener('click',(e) => {
-    equation.innerText = eval(equation.innerText);
+    //wrap in try catch
+    equation.innerText = eval(equation.innerText);9
 });
 
 
